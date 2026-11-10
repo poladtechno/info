@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PO-TECH | Fuel Pickup Attachment Kit Components</title>
+<meta name="description" content="PO-TECH – Powering Your Solutions. Components for fuel pickup attachment kits: wiring, relays, connectors, pickup assemblies, gaskets, seals and fasteners.">
+<link rel="icon" href="logo.png">
+<style>
+:root{--navy:#0b1f45;--navy2:#13305f;--orange:#ff6a00;--amber:#ffa800;--bg:#f4f6fa;--ink:#1b2437;--muted:#5d6881;--line:#e1e6ef;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:3px solid var(--orange)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:84px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:800;letter-spacing:.06em;font-size:20px}
+.brand .logo{height:64px;width:auto;display:block;background:#fff;border-radius:6px;padding:4px 10px}
+.brand small{display:block;font-size:9px;font-weight:600;letter-spacing:.22em;color:#aebbd6;margin-top:-2px}
+nav ul{display:flex;gap:26px;list-style:none}
+nav a{color:#d5deef;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;transition:color .2s}
+nav a:hover{color:var(--amber)}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--amber),var(--orange));color:#fff;font-weight:700;padding:13px 28px;border:0;border-radius:6px;font-size:15px;letter-spacing:.03em;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(255,106,0,.35)}
+.btn.ghost{background:transparent;border:2px solid #4b628e;color:#fff}
+.btn.ghost:hover{border-color:var(--amber);box-shadow:none}
+/* hero */
+.hero{background:radial-gradient(circle at 85% 20%,rgba(255,106,0,.25),transparent 45%),linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;padding:96px 0 104px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;bottom:-140px;width:420px;height:420px;border-radius:50%;border:44px solid rgba(255,168,0,.12)}
+.hero .wrap{position:relative;z-index:1}
+.eyebrow{color:var(--amber);font-weight:700;letter-spacing:.24em;font-size:13px;text-transform:uppercase}
+.hero h1{font-size:clamp(34px,5.6vw,60px);line-height:1.1;margin:14px 0 20px;font-weight:800;max-width:760px}
+.hero h1 span{color:var(--amber)}
+.hero p{max-width:600px;color:#c9d4ea;font-size:18px;margin-bottom:32px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+/* sections */
+section{padding:82px 0}
+.head{text-align:center;max-width:680px;margin:0 auto 46px}
+.head .eyebrow{color:var(--orange)}
+.head h2{font-size:clamp(28px,4vw,38px);color:var(--navy);margin:8px 0 12px}
+.head p{color:var(--muted)}
+.about{background:var(--white)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.box{background:var(--bg);border-radius:10px;padding:30px 26px;border-top:4px solid var(--orange)}
+.box h3{color:var(--navy);margin-bottom:8px;font-size:19px}
+.box p{color:var(--muted);font-size:15px}
+/* products */
+.group{margin-bottom:38px}
+.group h3{color:var(--navy);font-size:15px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:12px}
+.group h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:22px;position:relative;transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(11,31,69,.12);border-color:var(--orange)}
+.num{position:absolute;top:-1px;right:-1px;background:var(--orange);color:#fff;font-weight:800;font-size:13px;padding:5px 12px;border-radius:0 10px 0 10px}
+.ico{width:46px;height:46px;border-radius:10px;background:var(--navy);display:grid;place-items:center;margin-bottom:14px}
+.ico svg{width:26px;height:26px;stroke:var(--amber);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h4{color:var(--navy);font-size:16px;line-height:1.3;margin-bottom:6px;padding-right:26px}
+.card p{font-size:14px;color:var(--muted);margin-bottom:14px}
+.sku{display:inline-block;font-family:Consolas,Menlo,monospace;font-size:12.5px;background:var(--bg);border:1px dashed #b9c3d8;color:var(--navy);padding:4px 9px;border-radius:4px}
+/* contact */
+.contact{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff}
+.contact .head h2{color:#fff}.contact .head p{color:#c3cfe6}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+.info{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:30px}
+.info h3{color:var(--amber);font-size:14px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+.info dl{display:grid;gap:14px;font-size:15px}
+.info dt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#93a4c6}
+.info dd{color:#fff;word-break:break-word}
+.dl{display:grid;gap:12px}
+.dl a.file{display:flex;align-items:center;gap:14px;background:var(--white);color:var(--navy);border-radius:8px;padding:14px 18px;font-weight:700;transition:transform .15s,box-shadow .15s}
+.dl a.file:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.dl a.file b{background:var(--orange);color:#fff;font-size:12px;padding:5px 9px;border-radius:4px;letter-spacing:.06em}
+.dl a.file small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+footer{background:#07132b;color:#8e9dbd;text-align:center;padding:26px 20px;font-size:13px}
+footer b{color:#fff}
+@media(max-width:860px){nav ul{display:none}.cols,.cgrid{grid-template-columns:1fr}section{padding:60px 0}.hero{padding:64px 0 70px}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-elec" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="i-fuel" viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16M3 21h12M14 9h2a2 2 0 0 1 2 2v5a1.5 1.5 0 0 0 3 0V8l-3-3"/><path d="M7 8h4"/></symbol>
+  <symbol id="i-seal" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></symbol>
+  <symbol id="i-fix" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand">
+      <img class="logo" src="logo.png" alt="PO-TECH logo">
+    </a>
+    <nav><ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+    <a href="#contact" class="btn" style="padding:9px 20px;font-size:13px">Get in touch</a>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <div class="eyebrow">PO-TECH® · Powering Your Solutions</div>
+    <h1>Reliable components for <span>fuel pickup</span> attachment kits</h1>
+    <p>From wiring harnesses and relays to pickup assemblies, gaskets and seals – every part of the kit identified by its own unique SKU and supplied from a single source.</p>
+    <div class="cta">
+      <a href="#products" class="btn">View components</a>
+      <a href="mailto:poladtechno@gmail.com" class="btn ghost">Request a quote</a>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">About us</div>
+      <h2>One partner for the complete kit</h2>
+      <p>PO-TECH supplies the electrical, sealing and mounting components needed to assemble and install a fuel pickup attachment – clearly catalogued and easy to order.</p>
+    </div>
+    <div class="cols">
+      <div class="box"><h3>Complete kit</h3><p>Electrical, fuel-system, sealing and fastening parts selected to work together in a single attachment kit.</p></div>
+      <div class="box"><h3>Clear SKU catalogue</h3><p>Each component carries a unique PO-TECH SKU, making ordering, stock control and re-ordering simple and error-free.</p></div>
+      <div class="box"><h3>Direct communication</h3><p>Send us your requirements – quantities, specifications and delivery questions – and we will get back to you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Catalogue</div>
+      <h2>Fuel Pickup Attachment Kit</h2>
+      <p>Components overview with unique SKU and function.</p>
+    </div>
+
+    <div class="group"><h3>Electrical</h3><div class="grid">
+      <article class="card"><span class="num">01</span><div class="ico"><svg><use href="#i-elec"/></svg></div><h4>Electrical Wiring Harness</h4><p>Connects the electrical supply and control system to the fuel pickup assembly.</p><span class="sku">po-tech-F7K2M9Q1</span></article>
+      <article class="card"><span class="num">02</span><div class="ico"><svg><use href="#i-elec"/></svg></div><h4>Electrical Relay</h4><p>Controls electrical power distribution to the system.</p><span class="sku">po-tech-R4N8X2P6</span></article>
+      <article class="card"><span class="num">03</span><div class="ico"><svg><use href="#i-elec"/></svg></div><h4>Electrical Connectors</h4><p>Provides secure electrical connections between components.</p><span class="sku">po-tech-C9W3L5T8</span></article>
+      <article class="card"><span class="num">04</span><div class="ico"><svg><use href="#i-elec"/></svg></div><h4>Power Connector / Plug</h4><p>Connects the wiring harness to the electrical supply.</p><span class="sku">po-tech-P2D7H4V9</span></article>
+      <article class="card"><span class="num">05</span><div class="ico"><svg><use href="#i-elec"/></svg></div><h4>Control Switch</h4><p>Enables manual activation or deactivation, if applicable.</p><span class="sku">po-tech-S6J1B8K3</span></article>
+    </div></div>
+
+    <div class="group"><h3>Fuel pickup &amp; line</h3><div class="grid">
+      <article class="card"><span class="num">06</span><div class="ico"><svg><use href="#i-fuel"/></svg></div><h4>Fuel Pickup Assembly / Pickup Head</h4><p>Main component responsible for fuel extraction from the tank.</p><span class="sku">po-tech-F8M4Q2Z7</span></article>
+      <article class="card"><span class="num">09</span><div class="ico"><svg><use href="#i-fuel"/></svg></div><h4>Fuel Hose / Protective Tube</h4><p>Provides a flexible passage or protective covering for the fuel line.</p><span class="sku">po-tech-H7V3C9D1</span></article>
+    </div></div>
+
+    <div class="group"><h3>Sealing</h3><div class="grid">
+      <article class="card"><span class="num">07</span><div class="ico"><svg><use href="#i-seal"/></svg></div><h4>Fuel Pickup Sealing Gasket (Slotted)</h4><p>Provides sealing between the pickup assembly and mounting surface.</p><span class="sku">po-tech-G3X9N6A2</span></article>
+      <article class="card"><span class="num">08</span><div class="ico"><svg><use href="#i-seal"/></svg></div><h4>Fuel Pickup Sealing Gasket (Flat)</h4><p>Creates a leak-resistant sealing interface.</p><span class="sku">po-tech-G5T2R8W4</span></article>
+      <article class="card"><span class="num">12</span><div class="ico"><svg><use href="#i-seal"/></svg></div><h4>O-Ring Seal</h4><p>Prevents fuel leakage at connection interfaces.</p><span class="sku">po-tech-O6Z3P8N5</span></article>
+    </div></div>
+
+    <div class="group"><h3>Mounting &amp; fastening</h3><div class="grid">
+      <article class="card"><span class="num">10</span><div class="ico"><svg><use href="#i-fix"/></svg></div><h4>Mounting Fastener / Retaining Clip</h4><p>Retains and secures the corresponding component in position.</p><span class="sku">po-tech-M2K8F5Y6</span></article>
+      <article class="card"><span class="num">11</span><div class="ico"><svg><use href="#i-fix"/></svg></div><h4>Mounting Screws / Fasteners</h4><p>Mechanically secures the assembly during installation.</p><span class="sku">po-tech-B9Q4J7L2</span></article>
+      <article class="card"><span class="num">13</span><div class="ico"><svg><use href="#i-fix"/></svg></div><h4>Cable Ties (Zip Ties)</h4><p>Organizes and secures wiring and hoses.</p><span class="sku">po-tech-T4W7D2X9</span></article>
+    </div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow" style="color:var(--amber)">Contact</div>
+      <h2>Get our catalogue</h2>
+      <p>Download our catalogue or email us the components you need.</p>
+    </div>
+    <div class="cgrid">
+      <div class="info">
+        <h3>Company details</h3>
+        <dl>
+          <div><dt>Seller</dt><dd>Polad Techno İç ve Dış Ticaret Limited Şirketi</dd></div>
+          <div><dt>Tax No</dt><dd>7300880745</dd></div>
+          <div><dt>Address</dt><dd>Sinanpaşa Mah. Süleyman Seba Cadde No: 6/4</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:poladtechno@gmail.com">poladtechno@gmail.com</a></dd></div>
+          <div><dt>Bank</dt><dd>Türkiye İş Bankası</dd></div>
+          <div><dt>IBAN</dt><dd>TR55 0006 4000 0021 0081 5556 44</dd></div>
+          <div><dt>SWIFT</dt><dd>ISBKTRIS</dd></div>
+        </dl>
+      </div>
+
+      <div class="info">
+        <h3>Download catalogue</h3>
+        <div class="dl">
+          <a class="file" href="po-tech-catalogue.pdf" target="_blank" download><b>PDF</b><span>po-tech-catalogue.pdf<small>Components overview</small></span></a>
+          <a class="file" href="Po-techno-catalogue.xlsx" download><b>XLSX</b><span>Po-techno-catalogue.xlsx<small>Full SKU catalogue</small></span></a>
+        </div>
+        <p style="margin-top:18px;font-size:14px;color:#c3cfe6">Questions or orders? Write to <a href="mailto:poladtechno@gmail.com" style="color:var(--amber);font-weight:700">poladtechno@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <b>PO-TECH®</b> – Powering Your Solutions<br>
+  © <script>document.write(new Date().getFullYear())</script> Polad Techno İç ve Dış Ticaret Limited Şirketi. All rights reserved.
+</footer>
+</body>
+</html>
